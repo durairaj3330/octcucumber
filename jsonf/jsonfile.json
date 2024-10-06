@@ -1,0 +1,475 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 53735727900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the chrome browser and hit the url",
+            "match": {
+              "location": "AdactinDefinition.to_launch_the_chrome_browser_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2761980100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.browserlaunch1()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "To Validate invalida username and invalid password",
+        "description": "",
+        "id": "to-validate-login-functionality-in-adactin-appllication;to-validate-invalida-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 228509000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.browserlaunch2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 143699500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To enter invalid username in email field",
+            "match": {
+              "location": "AdactinDefinition.to_enter_invalid_username_in_email_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98482000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To enter invalid password in password field",
+            "match": {
+              "location": "AdactinDefinition.to_enter_invalid_password_in_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1150225600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To enter login button",
+            "match": {
+              "location": "AdactinDefinition.to_enter_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "to close the chrome brower",
+            "match": {
+              "location": "AdactinDefinition.to_close_the_chrome_brower()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature1"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4991388800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the chrome browser and hit the url",
+            "match": {
+              "location": "AdactinDefinition.to_launch_the_chrome_browser_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1477880900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.browserlaunch1()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "",
+        "description": "",
+        "id": "to-validate-login-functionality-in-adactin-appllication;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 202378200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.browserlaunch2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "enter invalid username\"vikki@123\" in email field",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "enter valid password in password\"52524\" field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "enter login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "close the chrome brower",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature1"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1161505100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the chrome browser and hit the url",
+            "match": {
+              "location": "AdactinDefinition.to_launch_the_chrome_browser_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1755296800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.browserlaunch1()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "",
+        "description": "",
+        "id": "to-validate-login-functionality-in-adactin-appllication;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 505686900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.browserlaunch2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "enter invalid username\"dirairaj\" in email field",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "enter valid password in password\"8754\" field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "enter login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "close the chrome brower",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature1"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "TO Validate login functionality in adactin appllication",
+    "description": "",
+    "id": "to-validate-login-functionality-in-adactin-appllication",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/adactin.feature",
+    "tags": [
+      {
+        "name": "@feature1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1980843200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.browserlaunch1()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To Validate invalid username and valid password",
+        "description": "",
+        "id": "to-validate-signin-functionality-in-adactin-appllication;to-validate-invalid-username-and-valid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 284592200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.browserlaunch2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7525471500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To send the chrome browser and hit the url",
+            "match": {
+              "location": "AmazonDefinitionClass.to_send_the_chrome_browser_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175042600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To send invalid username in email field",
+            "match": {
+              "location": "AmazonDefinitionClass.to_send_invalid_username_in_email_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "vikki123",
+                  "durairaj3330@gmail.com",
+                  "durai1213"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 607678100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "to click continue button",
+            "match": {
+              "location": "AmazonDefinitionClass.to_click_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 659628600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To send valid password in password field",
+            "match": {
+              "location": "AmazonDefinitionClass.to_send_valid_password_in_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98507900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To enter signin button",
+            "match": {
+              "location": "AmazonDefinitionClass.to_enter_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 253400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "to close the amazonweb brower",
+            "match": {
+              "location": "AmazonDefinitionClass.to_close_the_amazonweb_brower()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature2"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "TO Validate signIn functionality in adactin appllication",
+    "description": "",
+    "id": "to-validate-signin-functionality-in-adactin-appllication",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/amazon.feature",
+    "tags": [
+      {
+        "name": "@feature2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
